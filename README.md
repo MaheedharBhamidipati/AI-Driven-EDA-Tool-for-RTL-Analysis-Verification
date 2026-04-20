@@ -105,7 +105,7 @@ This approach aligns with emerging **AI-driven EDA workflows**.
 
 ## 👨‍💻 Author
 
-**Maheedhar Bhamidipati**  
+**V N S S S R Maheedhar Bhamidipati**  
 VLSI Design | FPGA | AI for Hardware  
 
 ---
