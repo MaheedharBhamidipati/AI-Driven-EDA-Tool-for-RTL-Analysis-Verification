@@ -1,1 +1,117 @@
+1. AI-Powered EDA Tool Workflow (Start to End)
 
+Description
+
+This diagram illustrates the complete operational workflow of the AI-Powered EDA Tool from system startup to waveform visualization.
+
+Key Highlights
+Launching terminal and Ollama LLM server
+Running backend Flask/Python application
+Accessing secure local HTTPS web interface
+Uploading Verilog RTL code
+Executing automated EDA pipeline
+Generating:
+Circuit Diagrams
+FSM Diagrams
+Truth Tables
+AI Analysis Summary
+PPA Estimates
+Waveform Outputs
+Purpose
+
+Provides users with an end-to-end understanding of how the tool operates during real-time execution.
+
+2. AI_EDA_TOOL Project Folder Structure
+
+Description
+
+This figure presents the organized directory hierarchy of the AI_EDA_TOOL project.
+
+Key Highlights
+Frontend Layer
+Flask App
+HTML Templates
+Backend Modules
+AI Engine
+Verilog Parser
+Simulation Engine
+PPA Analyzer
+Truth Table Generator
+Static Assets
+Circuit Images
+FSM Images
+CSS Styling
+Runtime Data
+Reports
+Waveforms
+Logs
+Generated Netlists
+Purpose
+
+Helps developers understand the modular architecture and maintainability structure of the project.
+
+3. AI / VLSI / System Architecture Models
+
+3.1 AI Model Architecture
+Description
+
+Represents the LLM-driven Verilog understanding pipeline used for AI analysis.
+
+Flow
+Verilog Input
+Preprocessing
+Parsing via PyVerilog
+RTL Graph Construction
+Ollama LLM Analysis
+Structured JSON Generation
+Visualization Output
+3.2 VLSI / EDA Flow Model
+Description
+
+Shows the traditional RTL-to-Visualization EDA transformation pipeline integrated into the platform.
+
+Flow
+Verilog RTL Input
+Parsing & Elaboration
+RTL Synthesis (Yosys)
+Gate-Level Netlist Generation
+Circuit Graph Conversion
+Visualization
+Future Timing/STA Integration
+3.3 System Architecture
+Description
+
+Depicts the high-level software architecture of the AI-EDA Tool.
+
+Components
+Frontend Web UI
+Upload Interface
+Circuit Viewer
+FSM Viewer
+Waveform Viewer
+Backend Python Server
+REST API / FastAPI
+Core Engines
+Parser Engine
+AI Engine (Ollama LLM)
+Synthesis Engine (Yosys)
+Storage
+JSON Repository
+Netlist Repository
+Logs & Reports
+Integrated External Tools
+Yosys
+Graphviz
+Icarus Verilog
+GTKWave
+Purpose
+
+Provides a complete overview of the internal software + EDA integration architecture.
+
+🚀 Summary
+
+These visual representations collectively describe:
+
+Operational Workflow → How users interact with the tool
+Folder Architecture → How the project is structured internally
+Technical Architecture → How AI, VLSI, and software components integrate
