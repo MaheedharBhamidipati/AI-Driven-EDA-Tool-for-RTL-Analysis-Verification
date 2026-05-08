@@ -93,5 +93,23 @@ The provided RTL examples can be tested using:
 
 ## Compile Verilog Code
 
-```bash id="vlog-compile"
-iverilog example.v -o output.out
+
+🚀 Future Additions
+
+Planned RTL examples include:
+
+UART Controller
+SPI Protocol
+I2C Protocol
+FIFO Design
+Cache Controller
+Pipelined Processor
+DSP Modules
+👨‍💻 Author
+
+Maheedhar Bhamidipati
+VLSI Design | FPGA | AI-EDA Research
+
+📜 License
+
+These example codes are intended for educational and research purposes.
